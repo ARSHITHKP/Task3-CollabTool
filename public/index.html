@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collaborative Editor - Task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Collaborative Editor</h1>
+        <p>Real-time collaboration like Google Docs</p>
+        
+        <textarea id="editor" placeholder="Start typing collaboratively..."></textarea>
+        
+        <div class="status">
+            <p>👥 Users online: <span id="userCount">1</span></p>
+            <p>🟢 Connected</p>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
